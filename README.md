@@ -1,6 +1,6 @@
 # Backend PENDEKAR
 
-## Name
+## Project Name
 Pendekar Project 
 
 ## Description
