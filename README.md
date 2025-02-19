@@ -4,8 +4,8 @@
     <div align="left">
         <h4>Developed by:</h4>
         <ol>
-            <li>Azka Lailatul Hana</li>
-            <li>Elsa Claudia Roulina Silitonga</li>
+            <li>Azka Lailatul Hana.</li>
+            <li>Elsa Claudia Roulina Silitonga.</li>
         </ol>
     </div>
 </section>
