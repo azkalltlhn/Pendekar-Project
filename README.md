@@ -4,11 +4,8 @@
     <div align="left">
         <h4>Developed by:</h4>
         <ol>
-            <li>Developer 1</li>
-            <li>Developer 2</li>
-            <li>Developer 3</li>
-            <li>Developer 4</li>
-            <li>Developer 5</li>
+            <li>Azka Lailatul Hana</li>
+            <li>Elsa Claudia Roulina Silitonga</li>
         </ol>
     </div>
 </section>
