@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik One');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+.swipers {
+  z-index: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  background-color: #000000;
+}
+
+body {
+  background: white;
+}
+
+.text-wrapper {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.vertical-line {
+  height: 42px;
+  border-left: 1px solid white;
+  margin: 0 -11px;
+}
+
+.text-wrapper-1 {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Rubik One', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  font-weight: bold;
+}
+
+.text-wrapper-2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.business-education {
+  width: 49px;
+  height: 49px;
+}
+
+.search {
+  height: 35px;
+  min-width: 270px;
+  background: #e2e2e2;
+  box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: #e2e2e2 1px solid;
+}
+
+.button-login {
+  background: linear-gradient(90deg, #00b8ff 0%, #2f86ee 56%, #0082ff 100%);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  height: 50px;
+  border: 1px #004fff solid;
+}
+
+.pendekar {
+  width: 85%;
+  height: 730px;
+  background: url('./assets/img/Rectangle.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0px 800px 0px;
+}
+
+.horizontalLine {
+  border: 2px white solid;
+  height: 0px;
+}
+
+.pendekar1 {
+  color: white;
+  font-size: 64px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.pendekar2 {
+  color: white;
+  font-size: 96px;
+  font-family: 'Rubik One';
+  font-weight: 400;
+}
+
+.pendekar3 {
+  color: white;
+  font-size: 48px;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.pendekar4 {
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.containerWinner {
+  background: linear-gradient(90deg, #0082ff 0%, #2f86ee 56%, #00b8ff 96%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: 1px #0082ff solid;
+}
+
+.winner1 {
+  color: #20448d;
+  font-size: 22px;
+  font-family: 'Lexend';
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.winner2 {
+  color: white;
+  font-size: 22px;
+  font-family: 'Lexend';
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.judul1 {
+  color: #20448d;
+  font-size: 64px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.rectangle1 {
+  width: 400px;
+  height: 220px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  align-items: start;
+}
+
+.text1 {
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: 'Inter';
+  word-wrap: break-word;
+}
+
+.text2 {
+  color: black;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.judul2 {
+  color: black;
+  font-size: 50px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.subjudul2_1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  font-family: Tahoma;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.judul3 {
+  color: white;
+  font-size: 60px;
+  font-family: 'Poppins';
+  font-weight: bolder;
+  word-wrap: break-word;
+}
+
+.kataMereka {
+  width: 400px;
+  background: white;
+  box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.text3 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.pp {
+  border-radius: 50%;
+}
+
+.horizontalLine1 {
+  border: 2px #0082ff solid;
+  height: 0px;
+}
+
+.text4 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.text5 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.business-education-footer {
+  width: 140px;
+  height: 140px;
+}
+
+.vertical-line2 {
+  height: 130px;
+  border-left: 1px solid white;
+  margin: 0 -11px;
+}
+
+.text-wrapper-3 {
+  color: white;
+  font-size: 32px;
+  font-family: Rubik One;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.text-wrapper-4 {
+  color: white;
+  font-size: 16px;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.text6 {
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+.text7 {
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.testimoni-rectangle {
+  background-image: url('../src/assets/img/Rectangle\ 67.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* html{
+    overflow: hidden;
+  }
+
+  @media (max-width:1024px){
+    html{
+      overflow: auto;
+    }
+  } */
+
+p {
+  margin: 0;
+}
+
+.res-atas {
+  background: linear-gradient(to right, #2f86ee 90%, #00b8ff 100%);
+}
+
+.res-bawah {
+  background-color: #fff;
+}
+
+/* body {
+    background: linear-gradient(to right, #2F86EE 45%, #00B8FF 50%, #fff 50%);
+    display: flex;
+    align-items: flex-start;
+  } */
+
+.text-wrapper {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.vertical-line {
+  height: 42px;
+  border-left: 1px solid white;
+  margin: 0 -11px;
+}
+
+.text-wrapper-1 {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Rubik One', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  font-weight: bold;
+}
+
+.text-wrapper-2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.business-education {
+  width: 49px;
+  height: 49px;
+}
+
+.rectangle-login {
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+.mulai-aksimu-untuk {
+  text-align: center;
+  font-family: 'Inter-Bold', Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  /* font-weight: bold; */
+}
+
+.span {
+  font-weight: 700;
+}
+
+.text-wrapper-8 {
+  font-family: 'Inter-SemiBold', Helvetica;
+  font-weight: 600;
+}
+
+.text-wrapper-9 {
+  font-family: 'Inter-Medium', Helvetica;
+  font-weight: 500;
+}
+
+.element {
+  width: 80%;
+}
+
+.text-wrapper-10 {
+  color: black;
+  font-size: 24px;
+  font-family: 'Rubik One', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.vertical-line-1 {
+  height: 60px;
+  border-left: 1px solid black;
+  margin: 0 -15px;
+}
+
+.text-wrapper-11 {
+  font-family: 'Quicksand-Medium', Helvetica;
+  font-weight: 500;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+}
+
+.text-wrapper-12 {
+  font-family: 'Lexend-SemiBold', Helvetica;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.overlap-5 {
+  font-size: 24px;
+  border-radius: 5px;
+  border: #fff 1px solid;
+  color: black;
+  background-color: transparent;
+  border-color: #7f7f7f;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.text-wrapper-13 {
+  font-family: 'Tahoma-Regular', Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.belum-punya-akun {
+  font-family: 'Tahoma-Regular', Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.text-wrapper-14 {
+  color: #00000080;
+}
+
+.text-wrapper-15 {
+  font-family: 'Tahoma-Bold', Helvetica;
+  font-weight: 700;
+  color: #2d54ad;
+  cursor: pointer;
+}
+
+.overlap-6 {
+  background-color: #0082ff;
+  border-radius: 5px;
+}
+
+.text-wrapper-16 {
+  font-family: 'Tahoma-Bold', Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.overlap-7 {
+  position: relative;
+  width: 616px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #00000080;
+}
+
+.vector-2 {
+  height: 9px;
+  width: 20px;
+  cursor: pointer;
+  align-self: flex-end;
+  position: relative;
+  margin-top: -70px;
+  margin-right: 15px;
+}
+
+.login-button {
+  font-family: 'Tahoma-Regular', Helvetica;
+  font-weight: 400;
+  color: white;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  background-color: #0082ff;
+  border-radius: 5px;
+}
+
+.login-button:hover {
+  background-color: #2f86ee;
+  color: #ffffff;
+}
+
+/* CSS for the password-toggle */
+.password-toggle {
+  position: relative;
+}
+
+.password-toggle i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Style for the eye and eye-slash icons */
+.password-toggle i.fa-eye,
+.password-toggle i.fa-eye-slash {
+  font-size: 18px;
+  color: #777; /* Adjust the color to your preference */
+}
+
+#auth {
+  color: #2f86ee;
+}
+
+.shadow {
+  box-shadow:
+    12px 0 12px rgba(0, 0, 0, 0.1),
+    0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff00;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #494949;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-atas {
+  height: 100px;
+}
+
+.profile {
+  color: #141199;
+  font-size: 32px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0.32px;
+  word-wrap: break-word;
+}
+
+.data-pribadi {
+  color: black;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.profile-text {
+  color: black;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.data-pribadi-nama {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 500;
+  word-wrap: break-word;
+  padding-left: 220px;
+}
+
+.ubah {
+  width: 448px;
+  background-color: #39A7FF;
+  color: white;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.ubah:hover {
+  background-color: #0082FF;
+}
+
+.main-content{
+  background: #f4f7fe;;
+}
+
+.belakangg{
+  display: flex;
+  /* min-height: 100vh; */
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevents the scroll bar from appearing in the main content */
+}
+
+.description-header{
+  cursor: pointer;
+}
+
+.search-dashboard {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+
+.list-item {
+  align-items: center;
+  box-sizing: border-box;
+  transition: all ease-in 0.2s;
+  margin-top: 6px;
+  margin-left: 7px;
+}
+
+.description-header {
+  color: #8fa6c0;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: color ease-in 0.2s;
+}
+
+.icon {
+  margin: 15px;
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  transition: color ease-in 0.2s;
+}
+
+.list-item:hover {
+  background: #4da4f7;
+  font-weight: bold;
+  transition: all ease-in 0.2s;
+  border-radius: 10px;
+}
+
+.list-item:hover .description-header {
+  color: white;
+  font-weight: Medium;
+}
+
+.list-item:hover .icon {
+  filter: brightness(0) invert(1);
+}
+
+.nama-user {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  line-height: normal;
+}
+
+.dashboard-atas {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kata-kata {
+  font-family: 'DM Sans-Bold', Helvetica;
+  font-weight: 700;
+  color: #141198;
+  font-size: 32px;
+  letter-spacing: 0.32px;
+  line-height: normal;
+}
+
+.nama-user {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  line-height: normal;
+}
+
+.search-dashboard {
+  height: 50px;
+  min-width: 250px;
+  background: #f4f7fe;
+  border: #ffffff;
+  border-radius: 50px;
+}
+
+.search-dashboard:focus {
+  outline: none;
+  border: none;
+}
+
+.calon-penerus {
+  color: #2b3674;
+  font-size: 32px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.jangan-menyerah {
+  color: #8fa6c0;
+  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.rekomendasi-PENDEKAR {
+  font-family: 'DM Sans-Bold', Helvetica;
+  font-weight: 700;
+  color: #141198;
+  font-size: 24px;
+  letter-spacing: 0.24px;
+  line-height: normal;
+  margin-left: 1vw;
+}
+
+.api {
+  width: 25px;
+  height: 25px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.title1 {
+  color: black;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.webinar {
+  color: black;
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.maju-perekonomian {
+  color: #0082ff;
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.vertical-line-dashboard {
+  height: 42px;
+  border-left: 1px solid black;
+  margin: 0 -11px;
+}
+
+.daftar {
+  color: white;
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/* Menyembunyikan scrollbar pada elemen dengan kelas .dashboard-bawah */
+.dashboard-bawah {
+  overflow-y: auto;
+  scrollbar-width: thin; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 11 */
+}
+
+.dashboard-bawah::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.dashboard-bawah::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}

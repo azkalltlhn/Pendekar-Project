@@ -1,0 +1,606 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: white;
+  width: 260px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.horizontal-line {
+  background: #e7edf3;
+  width: 238px;
+  height: 1px;
+  margin-top: 12px;
+}
+
+.main-content {
+  background-color: #f4f7fe;
+  flex-grow: 1;
+}
+
+.sidebar .header .illustration {
+  display: flex;
+  justify-content: center; /* Pusatkan secara vertikal */
+  align-items: center;
+  width: 100px; /* Sesuaikan lebar elemen sesuai kebutuhan */
+  height: 100px; /* Sesuaikan tinggi elemen sesuai kebutuhan */
+  overflow: hidden; /* Pastikan gambar bundar tidak keluar dari elemen */
+  margin: 0 auto; /* Memusatkan secara horizontal */
+  box-sizing: border-box;
+}
+
+.sidebar .header .illustration img {
+  border-radius: 30%; /* Membuat foto menjadi bundar */
+  max-width: 75%; /* Pastikan gambar tidak melebihi lebar elemen parent */
+  height: auto; /* Biarkan tinggi gambar disesuaikan secara proporsional */
+  display: block; /* Hilangkan jarak tambahan di sekitar gambar */
+}
+
+.sidebar .main .list-item .description-header {
+  color: #8fa6c0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: color ease-in 0.2s; /* Menambahkan transition untuk perubahan warna font */
+}
+
+.sidebar .main .list-item .icon {
+  margin: 13.36px 19px 10.36px 16px;
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  transition: color ease-in 0.2s; /* Menambahkan transition untuk perubahan warna ikon */
+}
+
+.sidebar .main {
+  margin-top: 10px;
+}
+
+.sidebar .main .list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 238px;
+  box-sizing: border-box;
+  transition: all ease-in 0.2s;
+  margin-top: 6px;
+  margin-left: 7px;
+}
+
+.sidebar .main .list-item:hover {
+  background: #4da4f7;
+  font-weight: bold;
+  transition:
+    all ease-in 0.2s,
+    opacity ease-in 0.2s;
+  border-radius: 10px;
+}
+
+.sidebar .main .list-item:hover .description-header {
+  color: white;
+  font-weight: Medium;
+}
+
+.sidebar .main .list-item:hover .icon {
+  filter: brightness(0) invert(1); /* Mengubah warna ikon menjadi putih saat di hover */
+}
+
+.horizontal-line1 {
+  background: #e7edf3;
+  width: 238px;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.sidebar-bawah {
+  color: #8fa6c0;
+  font-size: 14px;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin-top: 40px;
+  margin-left: 19px;
+}
+
+.edit-profile {
+  position: relative;
+  width: 100%;
+  height: 1244px;
+  background-color: #f4f7fe;
+}
+
+.edit-profile .group {
+  position: absolute;
+  width: 216px;
+  height: 231px;
+  top: 35px;
+  left: 687px;
+}
+
+.edit-profile .overlap-group {
+  /* foto profile keseluruhan */
+  position: relative;
+  height: 239px;
+  top: 0;
+  left: -200px;
+}
+
+.edit-profile .ellipse {
+  position: absolute;
+  width: 135px;
+  height: 135px;
+  top: 55px;
+  left: 0;
+  object-fit: cover;
+}
+
+.edit-profile .img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 160px;
+  left: 80px;
+}
+
+.edit-profile .div {
+  position: absolute;
+  width: 1098px;
+  height: 70px;
+  top: 246px;
+  left: 32px;
+}
+
+.edit-profile .group-wrapper {
+  position: absolute;
+  width: 168px;
+  height: 26px;
+  top: 0;
+  left: 0;
+}
+
+.edit-profile .text-wrapper {
+  position: absolute;
+  width: 168px;
+  top: 0;
+  left: 0;
+  font-family: 'Poppins-Medium', Helvetica;
+  font-weight: 500;
+  /* color: var(--aoucoa-vb); */
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  color: black;
+}
+
+.edit-profile .group-2 {
+  width: 1098px;
+  position: absolute;
+  height: 26px;
+  top: 40px;
+  left: 0;
+}
+
+.edit-profile .group-3 {
+  width: 1100px;
+  position: relative;
+  height: 26px;
+}
+
+.edit-profile .text-wrapper-2 {
+  position: absolute;
+  width: 1098px;
+  top: -8px;
+  left: 0;
+  font-family: 'Poppins-Medium', Helvetica;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.edit-profile .group-4 {
+  position: absolute;
+  width: 324px;
+  height: 70px;
+  top: 320px;
+  left: 32px;
+}
+
+.edit-profile .group-5 {
+  position: absolute;
+  width: 324px;
+  height: 26px;
+  top: 40px;
+  left: 0;
+}
+
+.edit-profile .group-6 {
+  width: 326px;
+  position: relative;
+  height: 26px;
+}
+
+.edit-profile .text-wrapper-3 {
+  position: absolute;
+  width: 324px;
+  top: -8px;
+  left: 0;
+  font-family: 'Poppins-Medium', Helvetica;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.edit-profile .group-7 {
+  position: absolute;
+  width: 324px;
+  height: 70px;
+  top: 395px;
+  left: 32px;
+}
+
+.edit-profile .group-8 {
+  position: absolute;
+  width: 371px;
+  height: 70px;
+  top: 470px;
+  left: 32px;
+}
+
+.edit-profile .group-9 {
+  width: 371px;
+  position: absolute;
+  height: 26px;
+  top: 40px;
+  left: 0;
+}
+
+.edit-profile .group-10 {
+  width: 373px;
+  position: relative;
+  height: 26px;
+}
+
+.edit-profile .text-wrapper-4 {
+  position: absolute;
+  width: 371px;
+  top: -8px;
+  left: 0;
+  font-family: 'Poppins-Medium', Helvetica;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.edit-profile .group-11 {
+  position: absolute;
+  width: 371px;
+  height: 70px;
+  top: 550px;
+  left: 32px;
+}
+
+.edit-profile .group-12 {
+  position: absolute;
+  width: 371px;
+  height: 70px;
+  top: 632px;
+  left: 32px;
+}
+
+.edit-profile .group-13 {
+  position: absolute;
+  width: 371px;
+  height: 26px;
+  top: 0;
+  left: 0;
+}
+
+.edit-profile .text-wrapper-5 {
+  position: absolute;
+  width: 371px;
+  top: 0;
+  left: 0;
+  font-family: 'Poppins-Medium', Helvetica;
+  font-weight: 500;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.edit-profile .group-14 {
+  position: absolute;
+  width: 371px;
+  height: 70px;
+  top: 715px;
+  left: 32px;
+}
+
+.edit-profile .group-15 {
+  position: absolute;
+  width: 371px;
+  height: 70px;
+  top: 802px;
+  left: 32px;
+}
+
+.edit-profile .frame {
+  position: absolute;
+  width: 448px;
+  height: 63px;
+  top: 400%; /* Atur persentase atau nilai tetap */
+  left: -260%;
+  background-color: #39a7ff;
+  border-radius: 5px;
+  overflow: hidden;
+  /* transform: translate(-50%, -0%); */
+}
+
+.edit-profile .text-wrapper-6 {
+  position: absolute;
+  width: 448px;
+  height: 63px;
+  top: 15px;
+  left: 0;
+  font-family: 'Poppins-Medium', Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.edit-profile .frame-2 {
+  position: fixed;
+  width: 1167px;
+  height: 109px;
+  top: 0;
+  left: 273px;
+  background-color: #f4f7fe;
+}
+
+.edit-profile .div-wrapper-1 {
+  left: 516px;
+  border: 1px solid;
+  border-color: #000000;
+  /* position: fixed; */
+  width: 448px;
+  height: 63px;
+  top: 400%;
+  left: -20%;
+  border-radius: 5px;
+  /* overflow: hidden; */
+  position: absolute;
+}
+
+.edit-profile .div-1 {
+  position: absolute;
+  width: 448px;
+  height: 63px;
+  top: 15px;
+  left: 0;
+  font-family: 'Poppins-Medium', Helvetica;
+  font-weight: bold;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.edit-profile .text-wrapper-7 {
+  position: absolute;
+  top: 40px;
+  left: 8px;
+  font-family: 'DM Sans-Bold', Helvetica;
+  font-weight: 700;
+  color: #141198;
+  font-size: 32px;
+  letter-spacing: 0.32px;
+  line-height: normal;
+}
+
+.edit-profile .misc {
+  /* untuk semua bagian search */
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 31px;
+  left: 655px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 14px 17px 40px 4px #7090b014;
+}
+
+.edit-profile .avatar-style {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 5px;
+  left: 345px;
+  background-image: url(./img/user-01c.svg);
+  background-size: 100% 100%;
+}
+
+.edit-profile .moon-solid {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 17px;
+  left: 305px;
+}
+
+.edit-profile .notifications {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 20px;
+  left: -29043px;
+  background-size: 100% 100%;
+}
+
+.edit-profile .large-input {
+  position: absolute;
+  width: 214px;
+  height: 41px;
+  top: 6px;
+  left: 10px;
+}
+
+.edit-profile .overlap {
+  position: relative;
+  width: 243px;
+  height: 41px;
+  background-color: #f4f7fe;
+  border-radius: 49px;
+}
+
+.edit-profile .text {
+  position: absolute;
+  width: 46px;
+  height: 20px;
+  top: 10px;
+  left: 42px;
+}
+
+/* .edit-profile .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  font-family: 'DM Sans-Regular', Helvetica;
+  font-weight: 400;
+  color: #8e9ab9;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  line-height: 20px;
+  white-space: nowrap;
+} */
+
+.edit-profile .search-icon {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 13px;
+  left: 20px;
+}
+
+.edit-profile .overlap-group-2 {
+  position: relative;
+  height: 12px;
+}
+
+.edit-profile .ellipse-3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1.4px solid;
+  border-color: #2b3674;
+}
+
+.edit-profile .line {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 8px;
+  left: 7px;
+}
+
+.group-2 {
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  margin-top: -5px;
+  margin-left: 0;
+}
+
+.group-3 {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 9px;
+}
+
+.text-wrapper-2 {
+  font-size: 18px;
+}
+
+/* Optional: Style for the input element */
+.text-wrapper-2 input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  background: none;
+  color: black;
+  border-radius: 9px;
+  font-family: 'Poppins-Medium', Helvetica;
+}
+
+input[type='text'] {
+  text-indent: 5px;
+  font-size: 15px;
+}
+
+.btn-save,
+.btn-cancel {
+  margin-top: 10px; /* Atur margin sesuai kebutuhan */
+  padding: 10px 20px; /* Atur padding sesuai kebutuhan */
+  font-size: 16px; /* Atur ukuran font sesuai kebutuhan */
+  color: #fff; /* Warna teks untuk tombol */
+  border: none; /* Hilangkan border */
+  border-radius: 4px; /* Sudut melengkung pada tombol */
+  cursor: pointer; /* Ganti kursor saat diarahkan ke tombol */
+  transition: background-color 0.3s ease; /* Efek transisi perubahan warna latar belakang */
+}
+
+.btn-save {
+  background-color: #4caf50; /* Warna latar belakang untuk tombol "Simpan" */
+}
+
+.btn-cancel {
+  background-color: #f44336; /* Warna latar belakang untuk tombol "Batal" */
+}
+
+/* Efek hover untuk tombol */
+.btn-save:hover,
+.btn-cancel:hover {
+  background-color: #45a049; /* Warna latar belakang saat tombol dihover */
+}
+
+.edit-profile .text-wrapper-8 {
+  position: absolute;
+  width: 168px;
+  top: 15px;
+  left: 180px;
+  /* text-align: center; */
+  font-family: 'Poppins-Medium', Helvetica;
+  font-weight: bold;
+  /* color: var(--aoucoa-vb); */
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  color: white;
+}

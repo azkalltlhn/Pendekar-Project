@@ -1,0 +1,24 @@
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s ease; /* Animasi efek fadeIn dan fadeOut dengan durasi 1 detik */
+}
+
+.carousel-slide.active {
+  opacity: 1; /* Membuat slide aktif muncul dengan opacity 1 */
+  /* z-index: 1; Set elemen aktif di atas elemen lain */
+}
+
+.carousel-slide:not(.active) {
+  z-index: 0; /* Set elemen tidak aktif di bawah elemen aktif */
+  opacity: 0; /* Menghilangkan slide tidak aktif dengan opacity 0 */
+}
+
+.imgStyles {
+  height: 23vw;/* Adjust the percentage as needed for the right shift */
+}
